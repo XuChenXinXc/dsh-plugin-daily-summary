@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Daily summary and TODO toast",
+    "description": "Daily scheduled Toast notification on the DSH web page presenting yesterday's conversation summary and unresolved TODOs with configurable push time."
+  }
+}

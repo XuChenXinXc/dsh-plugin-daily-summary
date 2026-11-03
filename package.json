@@ -1,0 +1,37 @@
+{
+  "name": "dsh-plugin-daily-summary",
+  "version": "1.0.0",
+  "description": "每日定时推送昨日对话总结与待办事项的 Toast 弹窗通知插件",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./lib/client.js": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/client.js",
+    "lib/index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "slots",
+        "@deepseek-ai/dsh-client-ui-renderer"
+      ]
+    }
+  }
+}

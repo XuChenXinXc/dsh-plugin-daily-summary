@@ -1,0 +1,5 @@
+- insert:
+    - id: daily-summary
+      name: 'dsh-plugin-daily-summary'
+      config:
+        pushTime: '09:00'

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="8" width="52" height="48" rx="10" fill="url(#bgGrad)"/>
+  <!-- 日历顶部条 -->
+  <path d="M6 18 Q6 8 16 8 L48 8 Q58 8 58 18 L58 22 L6 22 Z" fill="#1e40af" opacity="0.6"/>
+  <circle cx="20" cy="15" r="2.5" fill="#ffffff"/>
+  <circle cx="44" cy="15" r="2.5" fill="#ffffff"/>
+  <!-- 太阳 / 晨报图标 -->
+  <circle cx="32" cy="34" r="9" fill="url(#sunGrad)"/>
+  <path d="M32 20 L32 23 M32 45 L32 48 M18 34 L21 34 M43 34 L46 34" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 待办勾选标记 -->
+  <path d="M26 34 L30 38 L38 30" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

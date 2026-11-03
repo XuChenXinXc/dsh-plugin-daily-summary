@@ -1,0 +1,10 @@
+# 运行态缓存与自定数据（防止泄露个人会话和待办）
+user-config.json
+daily-cache.json
+manual-todos.json
+
+# 系统与开发依赖
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
